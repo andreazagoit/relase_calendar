@@ -2,15 +2,16 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.mjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^2.21.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19"
   }
 }
